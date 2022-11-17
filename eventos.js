@@ -1,5 +1,5 @@
 const INPUT_BUSCA = document.getElementById('input-busca');
-const TABELA_BEBIDAS = document.getElementById('tabela-bebidas');
+const TABELA_DADOS = document.getElementById('tabela-dados');
 
 INPUT_BUSCA.addEventListener('keyup', () => {
     let expressao = INPUT_BUSCA.value.toLowerCase();
@@ -8,7 +8,7 @@ INPUT_BUSCA.addEventListener('keyup', () => {
         return;
     }
 
-    let linhas = TABELA_BEBIDAS.getElementsByTagName('tr');
+    let linhas = TABELA_DADOS.getElementsByTagName('tr');
 
     for (let posicao in linhas) {
         if (true === isNaN(posicao)) {
