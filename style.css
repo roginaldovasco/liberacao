@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#img {
+    width: 50px;
+}
+
+#borda {
+    border-radius: 5px;
+}
+
+
+td {
+    font-size: 9pt;
+}
+
+.lib {
+    background-color: rgb(29, 131, 72);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+}
