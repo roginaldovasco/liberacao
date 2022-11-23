@@ -11,6 +11,15 @@
 
 td {
     font-size: 9pt;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.direita {
+    text-align: left;
 }
 
 .liberado {
@@ -42,4 +51,3 @@ td {
 p {
     font-size: 0.6em;
 }
-
