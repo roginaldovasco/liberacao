@@ -4,10 +4,6 @@
     width: 50px;
 }
 
-#borda {
-    border-radius: 5px;
-}
-
 
 td {
     font-size: 9pt;
@@ -51,3 +47,5 @@ th {
 p {
     font-size: 0.6em;
 }
+
+
